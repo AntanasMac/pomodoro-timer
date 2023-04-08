@@ -4,11 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main_script.js"></script>
+    <script src="button_div.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Pomodoro Timer</title>
 </head>
 
 <body>
-    <!-- Your content goes here -->
+    <div class="clock_box">
+
+        <div id="countdown"></div>
+        <div id="placeholder" class="placeholder">25:00</div>
+        <br>
+        <button id="start_button" onclick="countdown()">Start Session</button>
+
+    </div>
 </body>
 
 </html>
