@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="main_script.js"></script>
-    <script src="button_div.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Pomodoro Timer</title>
 </head>
@@ -15,10 +14,10 @@
 
         <div id="countdown"></div>
         <div id="placeholder" class="placeholder">25:00</div>
-        <br>
-        <button id="start_button" onclick="countdown()">Start Session</button>
-
+        <div id="text_flash" class="placeholder_reverse">focus time bitch</div>
     </div>
+    <br>
+    <button id="start_button" onclick="countdown()">Start</button>
 </body>
-
+<script src="button_div.js"></script>
 </html>

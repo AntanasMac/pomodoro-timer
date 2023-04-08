@@ -1,11 +1,13 @@
-var myButton = document.getElementById('start_button');
-var myDiv = document.getElementById('placeholder');
+const myButton = document.getElementById('start_button');
+const myDiv = document.getElementById('placeholder');
+const myDiv2 = document.getElementById('text_flash')
 
-    myButton.addEventListener('click', {
-        function : disappearFunction()
-    } );
+myButton.addEventListener('click', function() {
+    myDiv.style.display = "none";
+    myDiv2.style.display = "grid";
 
-function disappearFunction () {
-    myDiv.style.display = 'none';
-    console.log('click recorded');
-}
+    setTimeout(function() {
+        myDiv2.style.display = "none";
+      }, 1000);
+
+});
