@@ -1,12 +1,11 @@
 
 
 .clock_box {
-    margin-top:150px;
-    width:200px;
-    height:100px;
+    display:flex;
+    width:600px;
+    height:700px;
     margin:auto;
-    padding-top:100px;
-    overflow:visible;
+
 }
 
 
@@ -14,13 +13,11 @@
     
     color:rgb(85, 248, 3);
     font-size:100px;
-    display:block;
-    margin:auto;
+  
 }
 
 #start_button {
-    display:block;
-    margin:auto;
+    
     color:rgb(85, 248, 3);
     background-color:rgb(18, 5, 30);
     width:60px;
@@ -28,6 +25,7 @@
     border-radius:5px;
     border-color:rgb(85, 248, 3);
     cursor:pointer;
+    
     
 }
 
@@ -42,8 +40,8 @@ body {
 }
 
 .placeholder_reverse {
-    width:400px;
-    height:100px;
+    width:600px;
+    height:200px;
     color:rgb(85, 248, 3);
     font-size:100px;
     margin-top:0px;
