@@ -1,10 +1,35 @@
 
+.big_box{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+}
 
 .clock_box {
+    order:1
+    margin-top:50px;
     display:flex;
-    width:600px;
-    height:700px;
-    margin:auto;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    
+    height:300px;
+    border:2px solid;
+    border-color:white;
+    margin-bottom:10px;
+
+}
+
+.statement-text_flexbox {
+    
+    order:2;
+    display:flex;
+    border:2px solid;
+    border-color:white;
+    width:400px;
+    
+    
 
 }
 
@@ -19,12 +44,23 @@
 #start_button {
     
     color:rgb(85, 248, 3);
+    font-size:10px;
     background-color:rgb(18, 5, 30);
     width:60px;
     height:40px;
     border-radius:5px;
     border-color:rgb(85, 248, 3);
+    border-width:1px;
     cursor:pointer;
+    order:2;
+    
+   
+}
+
+#start_button:hover {
+    border-color:rgb(87, 254, 3);
+    border-width:2px;
+    
 }
 
 
@@ -35,15 +71,19 @@ body {
 .placeholder {
     color:rgb(85, 248, 3);
     font-size:100px;
-    margin-top:0px;
+    
 }
 
 .placeholder_reverse {
-    width:600px;
-    height:200px;
+    
     color:rgb(85, 248, 3);
-    font-size:100px;
-    margin-top:0px;
+    font-size:50px;
     display:none;
 
+}
+
+.statement_input {
+    background-color:rgb(18, 5, 30);
+    width:400px;
+    color:rgb(85, 248, 3);
 }
