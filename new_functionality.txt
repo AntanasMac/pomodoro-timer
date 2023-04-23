@@ -1,0 +1,21 @@
+Functionality: websaitas issaugo ir gali parodyti istorija sekmingai pabaigtu pomodoro sessiju
+
+
+
+Adding this functionality to your Pomodoro timer website is definitely achievable, even if you are just learning to program web.
+
+Here are some steps you can follow to implement this feature:
+
+Create a form on your website where users can enter their objective for the Pomodoro session. The form can include a text input field where the user can type their objective, and a button to submit the form.
+
+When the user clicks the submit button, use JavaScript to capture the objective value from the input field and store it in a variable.
+
+When the user clicks the start button to start the Pomodoro timer, use JavaScript to log a message to the console indicating that the timer has been started and also log the user's objective.
+
+To allow the user to view their history of objectives, you can create a section on your website that displays a list of past objectives. Whenever a user completes a Pomodoro session, you can add their objective to the list.
+
+You can use local storage or a backend database to persist the user's history of objectives across multiple sessions.
+
+Here's some sample code to help you get started:
+
+HTML:
